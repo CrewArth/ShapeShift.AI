@@ -1,0 +1,90 @@
+.search-section {
+  @apply mb-12 pt-24;
+}
+
+.forum-title {
+  @apply text-4xl font-bold text-center mb-4 text-[var(--foreground)];
+}
+
+.search-container {
+  @apply max-w-2xl mx-auto;
+}
+
+.search-input {
+  @apply w-full px-6 py-4 text-lg rounded-lg border border-[var(--border)]
+    bg-[var(--background-secondary)] text-[var(--foreground)]
+    focus:outline-none focus:ring-2 focus:ring-purple-500
+    transition-all duration-300;
+}
+
+.models-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center;
+}
+
+.model-card {
+  @apply bg-[var(--background-secondary)] rounded-xl overflow-hidden
+    border border-[var(--border)] shadow-lg
+    transition-all duration-300 w-full max-w-sm
+    hover:shadow-xl hover:border-purple-500;
+}
+
+.card-image-container {
+  @apply relative w-full h-48 overflow-hidden;
+}
+
+.card-image-with-vignette {
+  @apply relative w-full h-full;
+}
+
+.card-image-with-vignette::before {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent z-10;
+}
+
+.card-image-with-vignette img {
+  @apply w-full h-full object-cover transition-transform duration-300;
+}
+
+.dashboard-card:hover .card-image-with-vignette img {
+  @apply scale-110;
+}
+
+.card-content {
+  @apply p-6 text-center relative z-20;
+}
+
+.card-title {
+  @apply text-2xl font-bold mb-3 text-[var(--foreground)]
+    flex items-center justify-center gap-2;
+}
+
+.card-description {
+  @apply text-[var(--foreground-secondary)] leading-relaxed;
+}
+
+.new-badge {
+  @apply ml-2 inline-flex items-center px-2.5 py-0.5 rounded-full
+    text-xs font-medium bg-purple-500 text-white;
+}
+
+.dashboard-footer {
+  @apply mt-auto py-8 bg-[var(--background-secondary)] border-t border-[var(--border)];
+}
+
+.footer-content {
+  @apply container mx-auto px-4 flex flex-col md:flex-row
+    items-center justify-center gap-8;
+}
+
+.footer-text {
+  @apply text-[var(--foreground-secondary)] text-center;
+}
+
+.footer-links {
+  @apply flex items-center justify-center gap-6 flex-wrap;
+}
+
+.footer-link {
+  @apply text-[var(--foreground-secondary)] hover:text-[var(--foreground)]
+    transition-colors duration-200;
+} 

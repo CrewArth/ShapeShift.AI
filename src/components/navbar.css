@@ -1,0 +1,100 @@
+/* Navbar Styles */
+.navbar {
+  @apply fixed top-0 left-0 right-0 z-50 border-b
+         bg-[var(--card-background)] border-[var(--card-border)]
+         backdrop-filter backdrop-blur-lg;
+}
+
+.navbar-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 
+         flex items-center justify-between;
+}
+
+/* Brand and Logo */
+.navbar-brand-container {
+  @apply flex items-center gap-3;
+}
+
+.navbar-logo {
+  @apply w-10 h-10 object-contain;
+  filter: drop-shadow(0 0 8px rgba(124, 58, 237, 0.2));
+}
+
+.navbar-logo-placeholder {
+  @apply w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-blue-500
+         flex items-center justify-center text-white text-xl font-bold;
+  filter: drop-shadow(0 0 8px rgba(124, 58, 237, 0.2));
+}
+
+.navbar-brand-text {
+  @apply text-xl font-bold text-[var(--text-primary)]
+         bg-gradient-to-r from-purple-600 to-blue-500 
+         bg-clip-text text-transparent;
+}
+
+.navbar-links {
+  @apply flex items-center space-x-6;
+}
+
+.navbar-link {
+  @apply text-[var(--text-secondary)] hover:text-[var(--text-primary)]
+         transition-colors duration-200;
+}
+
+/* Authentication Buttons */
+.auth-buttons {
+  @apply flex items-center;
+}
+
+.auth-buttons > :first-child {
+  @apply mr-4;
+}
+
+.navbar-button {
+  @apply px-4 py-2 rounded-lg font-medium
+         bg-gradient-to-r from-purple-600 to-blue-500 text-white
+         hover:from-purple-700 hover:to-blue-600
+         transition-all duration-200
+         shadow-md hover:shadow-lg;
+}
+
+.navbar-button-secondary {
+  @apply px-4 py-2 rounded-lg font-medium
+         text-[var(--text-primary)] bg-transparent
+         border border-[var(--card-border)]
+         hover:border-purple-500 hover:text-purple-500
+         transition-all duration-200
+         shadow-sm hover:shadow-md;
+}
+
+/* Clerk User Button Customization */
+.cl-userButtonBox {
+  @apply flex items-center;
+}
+
+.cl-userButtonTrigger {
+  @apply hover:opacity-80 transition-opacity duration-200;
+}
+
+.cl-userButtonPopoverCard {
+  @apply bg-[var(--card-background)] border-[var(--card-border)]
+         shadow-lg rounded-lg;
+}
+
+.cl-userButtonPopoverActions {
+  @apply text-[var(--text-primary)];
+}
+
+.cl-userButtonPopoverFooter {
+  @apply border-t border-[var(--card-border)];
+}
+
+/* Animation Classes */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+} 
