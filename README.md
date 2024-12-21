@@ -82,8 +82,8 @@ ShapeShift.AI is licensed under the MIT License.
 We welcome contributions! Please check the CONTRIBUTING.md for guidelines.
 
 **📬 Contact**
-For queries or support, feel free to reach out:
+For queries or support, feel free to reach out:\n
 
-Email: arth@shapeshift.ai
-GitHub Issues: Report Bugs or Request Features
+Email: arth@shapeshift.ai \n
+GitHub Issues: Report Bugs or Request Features \n
 Let your imagination shape the future with ShapeShift.AI! 🎨✨
