@@ -1,6 +1,6 @@
-# ShapeShift.AI  
+# ShapeShift.AI  ![ShapeShiftLogo](https://github.com/user-attachments/assets/39bb5913-2e48-4623-90ef-8c4a37ad678f)
 
-![ShapeShiftLogo](https://github.com/user-attachments/assets/39bb5913-2e48-4623-90ef-8c4a37ad678f)
+
  <!-- Replace with your logo link -->
 
 **ShapeShift.AI** is a cutting-edge AI tool that transforms **text** and **2D images** into stunning **3D models**. Designed to save time and effort in building 3D models, ShapeShift.AI empowers developers and creators to unleash their creativity by crafting unique prompts and integrating high-quality 3D models into their projects.  
