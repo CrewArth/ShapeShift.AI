@@ -53,15 +53,15 @@ Follow these steps to get started with ShapeShift.AI on your local machine:
 1. Clone the repository:  
    ```bash  
    git clone https://github.com/CrewArth/ShapeShift.AI.git
-
+   ```
 2. Navigate to the project directory:
    ```bash
    cd ShapeShift.AI  
-
+   ```
 3.Install dependencies:
-  ```bash
+   ```bash
     npm install
-  ```
+   ```
 4. Create a .env file in the root directory and add the following environment variables:
   ```bash
   MONGODB_URI=
@@ -69,7 +69,7 @@ Follow these steps to get started with ShapeShift.AI on your local machine:
   RAZORPAY_KEY_ID=
   RAZORPAY_KEY_SECRET=
   RESEND_API_KEY=
-```
+  ```
 5. Start the development server:
    ```bash
    npm run dev
