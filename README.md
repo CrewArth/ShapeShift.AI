@@ -1,4 +1,4 @@
-# ShapeShift.AI  ![ShapeShiftLogo](https://github.com/user-attachments/assets/39bb5913-2e48-4623-90ef-8c4a37ad678f)
+# ShapeShift.AI  
 
 
  <!-- Replace with your logo link -->
