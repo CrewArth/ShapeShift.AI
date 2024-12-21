@@ -84,7 +84,7 @@ We welcome contributions! Please check the CONTRIBUTING.md for guidelines.
 **📬 Contact**
 For queries or support, feel free to reach out:
 
-Email: arth@shapeshift.ai
+Email: arthvala@gmail.com
 
 GitHub Issues: Report Bugs or Request Features
 
