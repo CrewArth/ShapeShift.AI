@@ -57,12 +57,13 @@ Follow these steps to get started with ShapeShift.AI on your local machine:
 2. Navigate to the project directory:
    ```bash
    cd ShapeShift.AI  
-   ```
- 3.Install dependencies:
+   
+3.Install dependencies:
    ```bash
-    npm install
-   ```
- 4. Create a .env file in the root directory and add the following environment variables:
+npm install
+```
+   
+4. Create a .env file in the root directory and add the following environment variables:
   ```bash
   MONGODB_URI=
   MESHY_API_KEY=
